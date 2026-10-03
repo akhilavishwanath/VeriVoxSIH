@@ -11,6 +11,6 @@ No build tools or third-party libraries are required. Open the HTML file in a mo
 
 ## Important limitation
 
-The demo uses heuristic audio features. It does not include trained AASIST, RawNet2, or ECAPA-TDNN models, and its risk score is illustrative rather than a validated deepfake or speaker-identity result.
+The demo includes a compact trained audio-spoof baseline. It reports 73.1% balanced accuracy and a 39.1% false-positive rate on genuine clips in a sampled, held-out set of 2,000 ASVspoof 2019 clips. Treat this as a prototype benchmark, not real-world or Indian-language validation. Speaker matching, prosody, and transaction context remain heuristic; no output establishes identity or proves fraud.
 
 Live demo: <https://verivox-demo.pages.bu.app/>
